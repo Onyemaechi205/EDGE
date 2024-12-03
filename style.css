@@ -1,17 +1,46 @@
 * {
-    margin: 0;
-    padding: 0;
+   margin-right: 10;
+   margin-left: 10;
+    padding: 10;
     font-family: sans-serif, 'poppins';
     box-sizing: border-box;
 }
 
-.container {
+  .container {
     width: 100%;
+   padding-right: 100px;
+   padding-left: 100px;
+   margin: -2px;
+   margin-left: 2px;
+   margin-right: 2px;
     min-height: 100vh;
     background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 10px; 
+
+} 
+.container {
     padding: 10px;
+    font-size: 16px;
 
 }
+
+@media (min-width: 600px) {
+    .container {
+        font-size: 18px;
+        background-color: gray;
+    }
+}
+
+@media(min-width: 768px) {
+    .container {
+        padding: 20px;
+        background-color: purple;
+    }
+} 
+
+
+
+
 
 .todo-app {
     width: 100%;
@@ -66,6 +95,9 @@ button {
     cursor: pointer;
     border-radius: 40px;
 }
+button:hover{
+    background-color: #4e085f;
+}
 
 ul li {
     list-style: none;
@@ -105,9 +137,15 @@ ul li span {
     color: #555;
     line-height: 40px;
     text-align: center;
+    color: whitesmoke;
+    background-color:#ff5945;
+    border: 20px;
+    padding: 1;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 ul li span:hover {
-    background: #edeef0;
-
+    background: #08296d;
+margin: 10;
 }
