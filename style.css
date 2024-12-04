@@ -119,3 +119,12 @@ ul li span:hover {
     background: #08296d;
 margin: 10;
 }
+.mb{
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.message{
+    color: rgb(166, 237, 13);
+    font-family: cursive;
+}
