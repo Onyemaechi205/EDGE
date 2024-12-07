@@ -127,4 +127,10 @@ margin: 10;
 .message{
     color: rgb(166, 237, 13);
     font-family: cursive;
+    text-align: center;
+  
+}
+.class{
+    padding: 20px;
+    
 }
